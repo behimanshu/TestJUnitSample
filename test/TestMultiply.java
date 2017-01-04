@@ -8,7 +8,7 @@ public class TestMultiply {
 	public void test() {
 		JUnit unit = new JUnit();
 		int result = unit.multiply(3, 5);
-		assertEquals(15,result);
+		assertEquals(25,result);
 	}
 
 }
