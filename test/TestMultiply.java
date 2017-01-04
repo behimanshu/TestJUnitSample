@@ -2,13 +2,13 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class TestAdd {
+public class TestMultiply {
 
 	@Test
 	public void test() {
 		JUnit unit = new JUnit();
-		int result = unit.add(1, 2);
-		assertEquals(6, result);
+		int result = unit.multiply(3, 5);
+		assertEquals(15,result);
 	}
 
 }
